@@ -1,0 +1,130 @@
+/* Add the following CSS rules */
+
+.body {
+  
+    background-position: center;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    background-image: url(C:\Users\prati\Desktop\Manipal Training\May_Training\ClinicOpdBookingSystem\clinic-opd-booking-system\public\images\background1.jpg);
+  }
+  
+  .form-container {
+      margin-top: 65px;
+      display: flex;
+      justify-content: center;
+     
+    }
+    
+    .registerbox-cancel-appointment {
+      width: 320px;
+      height: 360px;
+      background: rgba(137, 207, 240, 0.6);
+  
+      color: black;
+      position: relative;
+      box-sizing: border-box;
+      padding: 70px 30px;
+    }
+    
+    .registerbox-cancel-appointment:hover {
+      background: rgba(161,202,241,0.8);
+    }
+    
+    .avatar {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      position: absolute;
+      top: -50px;
+      left: 110px;
+    }
+    
+    h1 {
+      margin: 0;
+      padding: 0 0 20px;
+      text-align: center;
+      font-size: 22px;
+    }
+    
+    .registerbox-appointment p {
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+    }
+    
+    .registerbox-cancel-appointment input, .registerbox-cancel-appointment select {
+      width: 100%;
+      margin-bottom: 20px;
+      border: none;
+      border-bottom: 1px solid black;
+      background: transparent;
+      outline: none;
+      height: 40px;
+      color: black;
+      font-size: 16px;
+      padding: 0 2px;
+    }
+    
+    
+    .book-button {
+      border: none;
+      outline: none;
+      height: 40px;
+      background: #fb2525;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+      padding-left:15px;
+      padding-right: 15px;;
+    
+    }
+    
+    .book-button:hover {
+      cursor: pointer;
+      background: #ffc107;
+      color: #000;
+    }
+    
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    
+    .clear-button,
+    .back-button {
+      border: none;
+      outline: none;
+      height: 40px;
+      font-size: 18px;
+      border-radius: 18px;
+      padding: 0 10px;
+      cursor: pointer;
+      color:white;
+      width:100%;
+    }
+    
+    .clear-button {
+      margin-left: 10px;
+      background-color: #CCCCCC;
+    }
+    
+    .clear-button:hover {
+      background-color: #999999;
+    }
+    
+    .back-button {
+      margin-left: 10px;
+      background-color: #007BFF;
+    }
+    
+    .back-button:hover {
+      background-color: #0056b3;
+    }
+    

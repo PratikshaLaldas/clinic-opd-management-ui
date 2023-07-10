@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar-background{
+  background-color: #563d7c;
+}
+
+.nav-margin {
+  margin-left: 550px;
+}
+
+.navbar-text-white {
+  color: white;
+}
+
+.navbar-height {
+  height: 70px; /* Adjust the value as per your requirement */
+}
+
+
+.short-hr {
+  width: 50%;
+}
+
+.footer-text {
+  font-size: 14px;
+  color:black;
+  font-weight: 500;
+  }
+
+.footer-bg{
+  background-color: #ff8c00;
+}
+
+.footer-copyright{
+  text-align: center;
+  font-weight: 500;
+}

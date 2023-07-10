@@ -1,0 +1,51 @@
+ .carousel-image {
+    object-fit: cover;
+    filter: blur(3px); 
+    height: 600px;
+  }
+
+  .caption-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-family: "Montserrat", Arial, sans-serif;
+    
+  }
+
+  .carousel-text {
+    font-size: 30px; /* Adjust the font size as per your requirement */
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+
+  .carousel-text-black{
+    color: black;
+  }
+  
+  .card-height{
+    height:400px;
+  }
+
+  .card-link {
+    text-decoration: none;
+  }
+  
+  .card-link:hover {
+    background-color: #73C2FB;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 10);
+  }
+  
+  .patientHome-h3 {
+    font-family: 'Mukta', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #2d8659;
+    text-align: center;
+  }
+  

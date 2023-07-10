@@ -1,0 +1,150 @@
+
+.table-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 28px;
+  }
+  
+  .table-centre{
+    text-align: center;
+  }
+
+  .table th,
+  .table td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color: #00755E;
+    color: white;
+  }
+
+  
+  .Patient .table .tbody-bg {
+    background-color: burlywood !important;
+  }
+  .button-link {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    margin-left: 25px;
+    font-size: 15px;
+  }
+  
+  .button-link:hover {
+    opacity: 1;
+    background-color: #00427f;
+  }
+  
+
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    margin-left: 55px;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+    background-color: #52c781;
+  }
+
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  .update-message{
+        background-color: #004F98
+        ;
+
+  }
+
+  /*AllAppointment*/
+
+  .btn-cancel-allappointment {
+    padding: 12px 10px;
+    color: black;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  
+  .btn-cancel-allappointment:hover {
+    opacity: 1;
+    background-color: #ffff00;
+  }
+
+  .cancel-message{
+    background-color: #ffff4d;
+
+}
+
+
+.btn-reschedule-allappointment {
+    padding: 12px 10px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  
+  .btn-reschedule-allappointment:hover {
+    opacity: 1;
+    background-color: #00427f;
+  }
+
+.reschedule-message{
+    background-color: #004F98;
+
+}
+
+.btn-delete-allappointment {
+    padding: 12px 10px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  
+  .btn-delete-allappointment:hover {
+    opacity: 1;
+    background-color: maroon;
+  }
+
+.delete-message{
+    background-color: #ED2939;
+
+}
+
+.table-allappointment {
+    border-collapse: collapse;
+    width: 91%;
+    margin-top: 28px;
+  }
